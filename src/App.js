@@ -163,7 +163,7 @@ function App() {
                 </div>
                 <div className="output">
                   <label for="urlOutput">State: </label>
-                  <span name="urlOutput"><a href="http://" id="url" target="_blank" rel="noopener noreferrer"></a></span>
+                  <span name="urlOutput"><a href="http://" id="url" target="_blank" rel="noopener noreferrer">&nbsp;</a></span>
                 </div>
               </p>
             </div>

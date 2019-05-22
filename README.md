@@ -1,6 +1,6 @@
 # React state Lab
 
-In this lab, you'll create functional components which store state.
+In this lab, you'll create functional components that store state.
 
 ## Getting started
 

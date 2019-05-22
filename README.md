@@ -39,14 +39,13 @@ Overall, we will be converting the code in `App.js` into functional components t
 	2. create a property in the state object to store the value of the date.
 	3. display the value of the state in the span.
 
-
-	> Don't forget to make the function name match the component name, to export the function from the component file, and to import the function into `App.js`.
+> Don't forget to make the function name match the component name, to export the function from the component file, and to import the function into `App.js`.
 
 2. Create a new component called `<NumberInput />` that displays the number `input` selection in the `span` with the name `numberOutput`.
 
 3. Create a new component called `<ButtonInput />` that switches state between `true` and `false` when the button is pressed. Display the state in the `span` with the name `buttonOutput`.
 
-	> Consider using a ternary operator (or an `if` statement) to display the value of the state. You will not be able to display the state directly.
+> Consider using a ternary operator (or an `if` statement) to display the value of the state. You will not be able to display the state directly.
 
 4. Create a new component called `<RadioInput />` that displays which radio button is selected in the `span` with the name `radioOutput`.
 
@@ -56,7 +55,7 @@ Overall, we will be converting the code in `App.js` into functional components t
 
 7. Create a new component called `<RangeInput />` that displays the value of the input in the `span` with the name `rangeOutput`. Then style the `div` with the class `card-image` as black (0), white (100), or gradations of gray (between 0 and 100).
 
-	> Recall that color can be formatted using `rgb()` notation which takes three values between 0 and 255: `rgb(0, 0, 0)` is black, `rgb(255, 255, 255)` is white, and grays are in between with the same value for the three parameters, e.g. `rgb(120, 120, 120)` is medium-dark gray.
+> Recall that color can be formatted using `rgb()` notation which takes three values between 0 and 255: `rgb(0, 0, 0)` is black, `rgb(255, 255, 255)` is white, and grays are in between with the same value for the three parameters, e.g. `rgb(120, 120, 120)` is medium-dark gray.
 
 8. Create a new component called `<SelectInput />` that displays the value of the selection in the `span` with the name `selectOutput`. Then style the `BackgroundImage` of the `div` with the class `card-image` with a picture of the animal that was selected.
 

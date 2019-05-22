@@ -36,9 +36,9 @@ Overall, we will be converting the code in `App.js` into functional components t
 
 1. Create a new component called `<DateInput />` that displays the date `input` selection in the `span` with the name `dateOutput`. You will need to:
 
-	- add an inline event to listen for when a change is made to the date `input`.
-	- create a property in the state object to store the value of the date.
-	- display the value of the state in the span.
+- add an inline event to listen for when a change is made to the date `input`.
+- create a property in the state object to store the value of the date.
+- display the value of the state in the span.
 
 	> Don't forget to make the function name match the component name, to export the function from the component file, and to import the function into `App.js`.
 

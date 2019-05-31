@@ -20,11 +20,11 @@ function TextInput() {
 
   component.render = function() {
     return (
-      <li class="cards-item">
-        <div class="card">
-          <div class="card-content">
-            <div class="card-title">Text</div>
-            <p class="card-text">
+      <li className="cards-item">
+        <div className="card">
+          <div className="card-content">
+            <div className="card-title">Text</div>
+            <p className="card-text">
               <div className="input btn-block">
                 <input type="text" placeholder="Write here!" className="textInput" onChange={handleChange}/>
               </div>

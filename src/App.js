@@ -4,14 +4,14 @@ import TextInput from './Components/TextInput'
 
 function App() {
   return (
-    <div class="container">
-      <ul class="cards">
+    <div className="container">
+      <ul className="cards">
         <TextInput />
-        <li class="cards-item">
-          <div class="card">
-            <div class="card-content">
-              <div class="card-title">Date</div>
-              <p class="card-text">
+        <li className="cards-item">
+          <div className="card">
+            <div className="card-content">
+              <div className="card-title">Date</div>
+              <p className="card-text">
                 <div className="input btn-block">
                   <input type="date" className="textInput" />
                 </div>
@@ -23,11 +23,11 @@ function App() {
             </div>
           </div>
         </li>
-        <li class="cards-item">
-          <div class="card">
-            <div class="card-content">
-              <div class="card-title">Number</div>
-              <p class="card-text">
+        <li className="cards-item">
+          <div className="card">
+            <div className="card-content">
+              <div className="card-title">Number</div>
+              <p className="card-text">
                 <div className="input btn-block">
                   <input type="number" className="textInput" />
                 </div>
@@ -39,11 +39,11 @@ function App() {
             </div>
           </div>
         </li>
-        <li class="cards-item">
-          <div class="card">
-            <div class="card-content">
-              <div class="card-title">Button</div>
-              <p class="card-text">
+        <li className="cards-item">
+          <div className="card">
+            <div className="card-content">
+              <div className="card-title">Button</div>
+              <p className="card-text">
                 <div className="input btn-block">
                   <input type="button" value="Click me!" className="btn"/>
                 </div>
@@ -55,11 +55,11 @@ function App() {
             </div>
           </div>
         </li>
-        <li class="cards-item">
-          <div class="card">
-            <div class="card-content">
-              <div class="card-title">Radio</div>
-              <p class="card-text">
+        <li className="cards-item">
+          <div className="card">
+            <div className="card-content">
+              <div className="card-title">Radio</div>
+              <p className="card-text">
                 <div className="input">
                   <input type="radio" name="radioInput" value="1" className="checkboxInput" />
                   <input type="radio" name="radioInput" value="2" className="checkboxInput" />
@@ -75,12 +75,12 @@ function App() {
             </div>
           </div>
         </li>
-        <li class="cards-item">
-          <div class="card">
-            <div class="card-content">
-              <div class="card-image"></div>
-              <div class="card-title">Color</div>
-              <p class="card-text">
+        <li className="cards-item">
+          <div className="card">
+            <div className="card-content">
+              <div className="card-image"></div>
+              <div className="card-title">Color</div>
+              <p className="card-text">
                 <div className="input btn-block">
                   <input type="color" className="colorButton"/>
                 </div>
@@ -92,11 +92,11 @@ function App() {
             </div>
           </div>
         </li>
-        <li class="cards-item">
-          <div class="card">
-            <div class="card-content">
-              <div class="card-title">Checkbox</div>
-              <p class="card-text">
+        <li className="cards-item">
+          <div className="card">
+            <div className="card-content">
+              <div className="card-title">Checkbox</div>
+              <p className="card-text">
                 <div className="input">
                   <input type="checkbox" name="checkboxInput" value="1" className="checkboxInput" />
                   <input type="checkbox" name="checkboxInput" value="2" className="checkboxInput" />
@@ -112,12 +112,12 @@ function App() {
             </div>
           </div>
         </li>
-        <li class="cards-item">
-          <div class="card">
-            <div class="card-content">
-              <div class="card-image"></div>
-              <div class="card-title">Range Slider</div>
-              <p class="card-text">
+        <li className="cards-item">
+          <div className="card">
+            <div className="card-content">
+              <div className="card-image"></div>
+              <div className="card-title">Range Slider</div>
+              <p className="card-text">
                 <div className="input">
                   <input type="range" className="rangeInput" />
                 </div>
@@ -129,12 +129,12 @@ function App() {
             </div>
           </div>
         </li>
-        <li class="cards-item">
-          <div class="card">
-            <div class="card-content">
-              <div class="card-image"></div>
-              <div class="card-title">Select</div>
-              <p class="card-text">
+        <li className="cards-item">
+          <div className="card">
+            <div className="card-content">
+              <div className="card-image"></div>
+              <div className="card-title">Select</div>
+              <p className="card-text">
                 <div className="input">
                   <select className="selectInput">
                     <option value="">Choose one:</option>
@@ -153,11 +153,11 @@ function App() {
             </div>
           </div>
         </li>
-        <li class="cards-item">
-          <div class="card">
-            <div class="card-content">
-              <div class="card-title">URL</div>
-              <p class="card-text">
+        <li className="cards-item">
+          <div className="card">
+            <div className="card-content">
+              <div className="card-title">URL</div>
+              <p className="card-text">
                 <div className="input btn-block">
                   <input type="url" placeholder="Type a URL here!" className="textInput" />
                 </div>

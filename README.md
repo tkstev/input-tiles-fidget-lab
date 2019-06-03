@@ -1,4 +1,4 @@
-# React state Lab
+# React State Lab
 
 In this lab, you'll create functional components that store state.
 

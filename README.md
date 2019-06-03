@@ -4,31 +4,19 @@ In this lab, you'll create functional components that store state.
 
 Check out the [finished app](https://react-state-lab.herokuapp.com/) to see what you'll be building.
 
-## Getting started
+## Getting Started in CS50
 
-To get started, clone this repository into the CS50 IDE:
-
-```bash
-git clone https://github.com/upperlinecode/react-state-lab
-```
-
-> Note: if you have other React projects in CS50, you may run out of allocated memory. If that happens, we recommend deleting the `node_modules/` folder of other projects to free up some space.
-
-Then switch into the project directory, and install the node modules:
-
-```bash
-# switch into the project directory
-cd react-state-lab
-
-# install the node modules
-npm install
-```
-
-Once the installation is complete, you can start the development server using:
-
-```bash
-npm start
-```
+1. Clone this repository using `git clone`
+2. `cd` into the `react-state-lab` folder
+3. `npm install`
+4. `npm start`
+5. If the app compiles with no errors:
+    1. click on the `localhost` link, or
+    2. tap the `CS50 IDE` link in the header and choose `Web Server`
+6. If the app compiles with errors, to view the live app:
+    1. tap the `CS50 IDE` link in the header
+    2. choose `Web Server`
+7. If the app fails to compile, re-clone the repository
 
 ## To Do's
 

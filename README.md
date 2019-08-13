@@ -4,7 +4,7 @@ In this lab, you'll create functional components that store state.
 
 Check out the [finished app](https://react-state-lab.herokuapp.com/) to see what you'll be building.
 
-## Getting Started in CS50
+## Getting Started
 
 1. Clone this repository using `git clone`
 2. `cd` into the `react-state-lab` folder

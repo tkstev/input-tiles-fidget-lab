@@ -1,32 +1,25 @@
 import React from 'react';
-import '../App.css'
 
 const TextInput = () => {
   const component = new React.Component();
   component.state = {
     text: null
   }
-  
-  function handleChange(event) {
+
+  // The event will be passed in automatically.
+  component.handleChange = (event) => {
     component.setState({"text": event.target.value});
   }
-  
-//   function handleSubmit(event) {
-//     //logic for handling submit here
-//   }
-//   component.componentDidMount = function() {
-//     //some lifecycle action here
-//   }
 
-  component.render = function() {
+  component.render = () => {
     return (
-      <li className="cards-item">
+      <li className="TextInput cards-item">
         <div className="card">
           <div className="card-content">
             <div className="card-title">Text</div>
             <p className="card-text">
               <div className="input btn-block">
-                <input type="text" placeholder="Write here!" className="textInput" onChange={handleChange}/>
+                <input type="text" placeholder="Write here!" className="textInput" onChange={component.handleChange}/>
               </div>
               <div className="output">
                 <label for="textOutput">State: </label>

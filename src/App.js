@@ -1,32 +1,18 @@
 import React from 'react';
 import './App.css';
 import TextInput from './Components/TextInput'
+import DateInput from './Components/DateInput'
 
 const App = () => {
   const component = new React.Component();
 
-  component.render = function() {
+  component.render = () => {
     return (
       <div className="container">
         <ul className="cards">
           <TextInput />
-          <li className="cards-item">
-            <div className="card">
-              <div className="card-content">
-                <div className="card-title">Date</div>
-                <p className="card-text">
-                  <div className="input btn-block">
-                    <input type="date" className="textInput" />
-                  </div>
-                  <div className="output">
-                    <label for="dateOutput">State: </label>
-                    <span name="dateOutput"></span>
-                  </div>
-                </p>
-              </div>
-            </div>
-          </li>
-          <li className="cards-item">
+          <DateInput />
+          <li className="NumberInput cards-item">
             <div className="card">
               <div className="card-content">
                 <div className="card-title">Number</div>
@@ -42,7 +28,7 @@ const App = () => {
               </div>
             </div>
           </li>
-          <li className="cards-item">
+          <li className="ButtonInput cards-item">
             <div className="card">
               <div className="card-content">
                 <div className="card-title">Button</div>
@@ -58,7 +44,7 @@ const App = () => {
               </div>
             </div>
           </li>
-          <li className="cards-item">
+          <li className="RadioInput cards-item">
             <div className="card">
               <div className="card-content">
                 <div className="card-title">Radio</div>
@@ -78,7 +64,7 @@ const App = () => {
               </div>
             </div>
           </li>
-          <li className="cards-item">
+          <li className="ColorInput cards-item">
             <div className="card">
               <div className="card-content">
                 <div className="card-image"></div>
@@ -95,7 +81,7 @@ const App = () => {
               </div>
             </div>
           </li>
-          <li className="cards-item">
+          <li className="CheckboxInput cards-item">
             <div className="card">
               <div className="card-content">
                 <div className="card-title">Checkbox</div>
@@ -115,7 +101,7 @@ const App = () => {
               </div>
             </div>
           </li>
-          <li className="cards-item">
+          <li className="RangeInput cards-item">
             <div className="card">
               <div className="card-content">
                 <div className="card-image"></div>
@@ -132,7 +118,7 @@ const App = () => {
               </div>
             </div>
           </li>
-          <li className="cards-item">
+          <li className="SelectInput cards-item">
             <div className="card">
               <div className="card-content">
                 <div className="card-image"></div>
@@ -156,7 +142,7 @@ const App = () => {
               </div>
             </div>
           </li>
-          <li className="cards-item">
+          <li className="UrlInput cards-item">
             <div className="card">
               <div className="card-content">
                 <div className="card-title">URL</div>
@@ -176,7 +162,7 @@ const App = () => {
       </div>
     );
   }
-  
+
   return component
 }
 

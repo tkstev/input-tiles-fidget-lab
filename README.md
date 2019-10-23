@@ -1,13 +1,16 @@
-# React State Lab
+# React Fidget App Lab
+## React State Lab
 
 In this lab, you'll create functional components that store state.
 
 Check out the [finished app](https://react-state-lab.herokuapp.com/) to see what you'll be building.
 
+![Screenshot of Finished App](./public/FidgetScreenshot.png)
+
 ## Getting Started
 
 1. Clone this repository using `git clone`
-2. `cd` into the `react-state-lab` folder
+2. `cd` into the lab
 3. `npm install`
 4. `npm start`
 
@@ -17,20 +20,21 @@ Overall, we will be converting the code in `App.js` into functional components t
 
 0. Inspect the code in `App.js` and `Components/TextInput.js`. Notice that the `<TextInput />` component has already been completed in `App.js` and will be a pattern to follow for other functional components with state.
 
-1. Create a new component called `<DateInput />` that displays the date `input` selection in the `span` with the name `dateOutput`. You will need to:
-	1. add an inline event to listen for when a change is made to the date `input`.
-	2. create a property in the state object to store the value of the date.
+1. Go to the second component, called `<DateInput />`, that displays the date `input` selection in the `span` with the name `dateOutput`. You will need to:
+	1. add an inline event to listen for when a change is made to the date `input`. This will need to use the `setState` method.
+	2. create a `component.state` object, and a property in that state object to store the value of the date.
 	3. display the value of the state in the span.
 
-> Don't forget to make the function name match the component name, to export the function from the component file, and to import the function into `App.js`.
-
-2. Create a new component called `<NumberInput />` that displays the number `input` selection in the `span` with the name `numberOutput`.
+2. Open the component called `<NumberInput />` that displays the number `input` selection in the `span` with the name `numberOutput`.
 
 3. Create a new component called `<ButtonInput />` that switches state between `true` and `false` when the button is pressed. Display the state in the `span` with the name `buttonOutput`.
 
 > Consider using a ternary operator (or an `if` statement) to display the value of the state. You will not be able to display the state directly.
+> Don't forget to import the component into `App.js`
 
 4. Create a new component called `<RadioInput />` that displays which radio button is selected in the `span` with the name `radioOutput`.
+
+> Don't forget to make the function name match the component name, and to export the function from the component file.
 
 5. Create a new component called `<ColorInput />` that displays the selected color in the `span` with the name `colorOutput`. Then create and use an inline style to format the `BackgroundColor` of the `div` with the class `card-image` with the color selected by the input.
 
@@ -45,4 +49,3 @@ Overall, we will be converting the code in `App.js` into functional components t
 9. Create a new component called `<UrlInput />` that displays the value of the input in the `span` with the name `urlOutput`. Ensure that the URL in the output is clickable and sends a user to a new website.
 
 10. Build a passcode lock component that only unlocks (or displays a "Success!" message to a user) when they input the correct value in each of four numerical `input` fields. For example, if the secret passcode is `1783`, the first box must contain a `1`, the second a `7`, the third an `8`, and the fourth a `3`, otherwise the user gets a "Failure to unlock" message.
-

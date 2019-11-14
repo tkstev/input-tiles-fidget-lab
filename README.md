@@ -1,11 +1,12 @@
-# React Fidget App Lab
-## React State Lab
-
-In this lab, you'll create functional components that store state.
-
-Check out the [finished app](https://react-state-lab.herokuapp.com/) to see what you'll be building.
+# React Fidget App Lab (React State Lab)
 
 ![Screenshot of Finished App](./public/FidgetScreenshot.png)
+
+## The Goal
+
+In this lab, you'll create a digital fidget toy - it will use functional components that store state. In the same way that real fidget spinners and fidget cubes have moveable parts that don't do much, this app won't do anything other than give some fun visual responses when the user clicks buttons, types words, and selects colors.
+
+Check out the [finished app](https://react-state-lab.herokuapp.com/) to see what you'll be building.
 
 ## Getting Started
 
@@ -14,7 +15,7 @@ Check out the [finished app](https://react-state-lab.herokuapp.com/) to see what
 3. `npm install`
 4. `npm start`
 
-## To Do's
+## The Lab
 
 Overall, we will be converting the code in `App.js` into functional components that store state.
 
@@ -37,6 +38,8 @@ Overall, we will be converting the code in `App.js` into functional components t
 > Don't forget to make the function name match the component name, and to export the function from the component file.
 
 5. Create a new component called `<ColorInput />` that displays the selected color in the `span` with the name `colorOutput`. Then create and use an inline style to format the `BackgroundColor` of the `div` with the class `card-image` with the color selected by the input.
+
+## Extensions
 
 6. Create a new component called `<CheckboxInput />` that displays how many checkboxes are checked in the `span` with the name `checkboxOutput`.
 

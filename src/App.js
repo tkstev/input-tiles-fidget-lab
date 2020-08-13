@@ -1,12 +1,10 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
-import TextInput from './Components/TextInput'
-import DateInput from './Components/DateInput'
+import TextInput from './Components/TextInput';
+import DateInput from './Components/DateInput';
 
-const App = () => {
-  const component = new React.Component();
-
-  component.render = () => {
+class App extends Component  {
+  render() {
     return (
       <div className="container">
         <ul className="cards">
@@ -162,8 +160,6 @@ const App = () => {
       </div>
     );
   }
-
-  return component
 }
 
 export default App;

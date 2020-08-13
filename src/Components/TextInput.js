@@ -1,17 +1,19 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-const TextInput = () => {
-  const component = new React.Component();
-  component.state = {
-    text: null
-  }
+class TextInput extends Component {
+  constructor(props) {
+    super(props);
+    component.state = {
+      text: null
+    }
+  };
 
   // The event will be passed in automatically.
-  component.handleChange = (event) => {
+  handleChange = (event) => {
     component.setState({"text": event.target.value});
   }
 
-  component.render = () => {
+  render() {
     return (
       <li className="TextInput cards-item">
         <div className="card">
@@ -19,11 +21,11 @@ const TextInput = () => {
             <div className="card-title">Text</div>
             <p className="card-text">
               <div className="input btn-block">
-                <input type="text" placeholder="Write here!" className="textInput" onChange={component.handleChange}/>
+                <input type="text" placeholder="Write here!" className="textInput" onChange={this.handleChange}/>
               </div>
               <div className="output">
                 <label for="textOutput">State: </label>
-                <span name="textOutput">{component.state.text}</span>
+                <span name="textOutput">{this.state.text}</span>
               </div>
             </p>
           </div>
@@ -31,7 +33,6 @@ const TextInput = () => {
       </li>
     )
   }
-  return component;
 }
 
-export default TextInput
+export default TextInput;

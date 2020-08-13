@@ -1,11 +1,10 @@
-import React from 'react'
+import React, {Component} from 'react';
 
-const ButtonInput = () => {
-  // Add a component initialization
+class ButtonInput extends Component {
+  // Add a constructor with a state
 
-  // Add a component.render function which returns JSX
-
-  // Return the component
+  // Add a render function which returns JSX
+  
 }
 
-export default ButtonInput
+export default ButtonInput;

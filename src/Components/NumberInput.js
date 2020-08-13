@@ -1,15 +1,16 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-const NumberInput = () => {
-  const component = new React.Component();
-
-  component.render = () => {
-    return(
-      <h1>Replace this JSX with code from App.js</h1>
-    )
+class NumberInput extends Component {
+  constructor(props){
+    super(props);
+    // Be sure to add a state.
   }
 
-  return component
+  render() {
+    return(
+      <h1>Replace this JSX with code from App.js</h1>
+    );
+  }
 }
 
-export default NumberInput
+export default NumberInput;

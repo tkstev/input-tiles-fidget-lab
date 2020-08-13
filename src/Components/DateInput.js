@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-const DateInput = () => {
-  const component = new React.Component();
+class DateInput extends Component {
+  // Add a constructor with state
 
-  component.render = () => {
+  render() {
     return(
       <li className="cards-item">
         <div className="card">
@@ -21,10 +21,8 @@ const DateInput = () => {
           </div>
         </div>
       </li>
-    )
+    );
   }
-
-  return component
 }
 
-export default DateInput
+export default DateInput;

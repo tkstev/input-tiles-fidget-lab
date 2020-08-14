@@ -3,14 +3,14 @@ import React, {Component} from 'react';
 class TextInput extends Component {
   constructor(props) {
     super(props);
-    component.state = {
+    this.state = {
       text: null
     }
   };
 
   // The event will be passed in automatically.
   handleChange = (event) => {
-    component.setState({"text": event.target.value});
+    this.setState({"text": event.target.value});
   }
 
   render() {

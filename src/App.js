@@ -13,7 +13,7 @@ class App extends Component  {
           <li className="NumberInput cards-item">
             <div className="card">
               <div className="card-content">
-                <div className="card-title">Number</div>
+                <div className="card-title">Numbers</div>
                 <p className="card-text">
                   <div className="input btn-block">
                     <input type="number" className="textInput" />
